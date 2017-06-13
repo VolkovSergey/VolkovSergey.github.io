@@ -1,0 +1,91 @@
+@font-face {
+  font-family: Helvetica; /* Гарнитура шрифта */
+  src: url(font/Helvetica.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  margin: 0 auto;
+  width: 670px;
+  height: 900px;
+  border: 1px solid #000;
+  background-color: #323355;
+  background-image: url(img/dots.png), url(img/pattern.png);
+  position: relative;
+}
+.container::after {
+  content: "";
+  border-left: 3px solid #5e607a;
+  display: block;
+  height: 900px;
+  position: absolute;
+  top: 0%;
+  left: 333px;
+  border-radius: 1px;
+}
+.big_circle{
+  /* Style for "YEAR CIRCL" */
+  width: 49px;
+  height: 49px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(201, 207, 238, 0.25);
+  background-color: #393b5b;
+  background-image: linear-gradient(to top, #565b78 0%, #737c9c 100%);
+  border-radius: 100%;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 310px;
+
+}
+.small{
+  /* Style for "SMALL CIRC" */
+  width: 16px;
+  height: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(201, 207, 238, 0.25);
+  background-color: #393b5b;
+  background-image: linear-gradient(to top, #565b78 0%, #737c9c 100%);
+  border-radius: 100%;
+  position: absolute;
+  z-index: 1;
+  left: 326px;
+}
+.pacistan{
+  top: 173px;
+}
+.love{
+  top: 513px;
+}
+.eleven{
+  
+  top: 48px;
+}
+.six{
+
+  top: 267px;
+}
+.four{
+  top: 393px;
+}
+.nine{
+  top: 603px;
+}
+.eight{
+  top:712px;
+}
+.born{
+  top: 814px;
+}
+span {
+  text-shadow: 0 -1px 0 rgba(22, 23, 48, 0.5);
+  color: #ffffff;
+  font-family: "Helvetica";
+  font-size: 12px;
+  font-weight: 700;
+  display: block;
+}
+
